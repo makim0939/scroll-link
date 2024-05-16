@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch ./**/*.ts --exec ts-node server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/ws": "^8.5.10",
+    "eslint-prettier-config": "^1.0.1",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "socket.io": "^4.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^8.57.0",
+    "globals": "^15.2.0",
+    "typescript-eslint": "^7.9.0"
+  }
+}
