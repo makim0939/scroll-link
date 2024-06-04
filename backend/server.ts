@@ -10,8 +10,7 @@ const io = new Server(server, {
       'http://localhost:5173',
       'http://localhost:5174',
       'http://192.168.10.103:5173',
-      'http://10.14.1.137:5173',
-      'http://10.14.1.137:5174',
+      'http://10.14.1.70:5173',
     ],
   },
 });

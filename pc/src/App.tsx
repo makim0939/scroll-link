@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { io } from 'socket.io-client'
 import './App.css'
 
@@ -15,7 +15,6 @@ useEffect(() => {
   socket.on('scroll', (scrollY) => {
     console.log(scrollY)
     window.scrollTo(0, scrollY)
-
   })
 
   return () => {

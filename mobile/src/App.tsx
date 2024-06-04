@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import {io} from 'socket.io-client'
 
 import './App.css'
@@ -8,7 +8,7 @@ function App() {
   console.log(window.scrollY)
   useEffect(() => {
     
-    const socket = io('http://10.14.1.137:3000')
+    const socket = io('localhost:3000')
     socket.on('connect', () => {
       console.log('User connected')
     })
